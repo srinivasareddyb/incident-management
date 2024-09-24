@@ -30,3 +30,9 @@ kill -9 $(ps aux | grep cds-dk | awk '{print $2}')
 ## Debug
 bash
 sed 's#$"SSH_CONNECTION"#"$SSH_CONNECTION"#gi' -i $HOME/.bashrc
+
+
+
+##Jest Test
+npm add -D axios chai@4 chai-as-promised@7.1.2 chai-subset jest
+
